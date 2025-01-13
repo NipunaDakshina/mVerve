@@ -240,17 +240,17 @@ const Form = () => {
                   onChange={handleChange}
                   className={`w-full p-2 border ${
                     errors.password ? "border-red-500" : "border-gray-300"
-                  } rounded-lg focus:outline-none`}
+                  } rounded-lg focus:outline-none `}
                 />
                 <button
                   type="button"
-                  className="absolute right-3 top-1/2 transform -translate-y-1/2"
+                  className="absolute right-3 bottom-1 transform -translate-y-1/2"
                   onClick={togglePassword}
                 >
                   {showPassword ? (
-                    <FaEyeSlash className="text-gray-500" />
+                    <FaEyeSlash className="text-brand-Default" />
                   ) : (
-                    <FaEye className="text-gray-500" />
+                    <FaEye className="text-brand-Default" />
                   )}
                 </button>
 
@@ -276,13 +276,13 @@ const Form = () => {
                 />
                 <button
                   type="button"
-                  className="absolute right-3 top-1/2 transform -translate-y-1/2"
+                  className="absolute right-3 bottom-1 transform -translate-y-1/2  "
                   onClick={togglePassword}
                 >
                   {showPassword ? (
-                    <FaEyeSlash className="text-gray-500" />
+                    <FaEyeSlash className="text-brand-Default" />
                   ) : (
-                    <FaEye className="text-gray-500" />
+                    <FaEye className="text-brand-Default" />
                   )}
                 </button>
 
